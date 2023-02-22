@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <style>
+      img{
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- place navbar here -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border border-success">
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="radixweb.jpg" class="image-thumbnail w-0 h-0" alt=""></a>
+            
+               <button class="navbar-toggler ms-end" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#toggle1" aria-controls="offcanvasNavbar">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+            
+  
+              <div class="collapse navbar-collapse" id="toggle1">
+                 
+                      <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+                          <li class="nav-item">
+                              <a href="" class="nav-link active">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="" class="nav-link">About Us</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Contact Us</a>
+                              <ul class="dropdown-menu">
+                                  <li class="dropdown-item">Email</li>
+                                  <li class="dropdown-item">Phone</li>
+                                  <li class="dropdown-item">Instagram</li>
+                                  <li class="dropdown-item">Facebook</li>
+                              </ul>
+                          </li>
+                          
+                      </ul>
+                      <form class="d-flex">
+                          <input type="serach" class="form-control" placeholder="Search">
+                          <button class="btn btn-outline-primary">Search</button>
+                      </form>
+                  
+                  
+              </div>
+          </div>
+      </nav>
+  
+    </header>
+   
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

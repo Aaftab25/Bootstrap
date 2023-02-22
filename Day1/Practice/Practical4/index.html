@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -27,21 +31,106 @@
     </header>
     <main>
         <div class="container-fluid">
-            <div class="row mt-3">
-                <div class="col-4">
-                    <button class="btn btn-primary w-25 me-5"><i class="fa-solid fa-plus"></i>Add Post</button>
+            <div class="row mt-3 bg-light">
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <button class="btn btn-primary w-100 me-5"><i class="fa-solid fa-plus"></i>Add Post</button>
                 </div>
-                <div class="col-4">
-                    <button class="btn btn-success w-25 me-5"><i class="fa-solid fa-plus"></i>Add Category</button>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <button class="btn btn-success w-100 me-5"><i class="fa-solid fa-plus"></i>Add Category</button>
                 </div>
-                <div class="col-4">
-                    <button class="btn btn-warning w-25 "><i class="fa-solid fa-plus"></i>Add User</button>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <button class="btn btn-warning w-100 "><i class="fa-solid fa-plus"></i>Add User</button>
                 </div>
             </div>
+            <div class="row mt-5">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+                    <table class="table table-striped table-hover border">
+                        <tr>
+                            <th colspan="5" class="fs-3 h-100">Latest Post</th>
+                        </tr>
+                        <tr class="table-dark">
+                            <th>#</th>
+                            <th>Title</th>
+                            <th>Category</th>
+                            <th>Date</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Post One</td>
+                            <td>Web Development</td>
+                            <td>july 11, 2017</td>
+                            <td><button class="btn btn-outline-secondary">Detail</button></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Post Two</td>
+                            <td>Web Development</td>
+                            <td>july 12, 2017</td>
+                            <td><button class="btn btn-outline-secondary">Detail</button></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Post Three</td>
+                            <td>Tech Gadgets</td>
+                            <td>july 13, 2017</td>
+                            <td><button class="btn btn-outline-secondary">Detail</button></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Post Four</td>
+                            <td>Helth & Wellness</td>
+                            <td>july 13, 2017</td>
+                            <td><button class="btn btn-outline-secondary">Detail</button></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Post Five</td>
+                            <td>Helth & Wellness</td>
+                            <td>july 13, 2017</td>
+                            <td><button class="btn btn-outline-secondary">Detail</button></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Post Six</td>
+                            <td>Web Development</td>
+                            <td>july 13, 2017</td>
+                            <td><button class="btn btn-outline-secondary">Detail</button></td>
+                        </tr>
+
+                    </table>
+
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ms-lg-5 ps-lg-5  ">
+                    <div class="row bg-primary text-light pb-3 ms-auto me-auto mb-3 rounded">
+                        <h2 class="text-center mt-2">Posts</h2>
+                        <h1 class="text-center"><i class="fa-sharp fa-solid fa-pencil"></i> 6</h1>
+                        <button class="btn btn-outline-light w-25 ms-auto me-auto">View</button>
+                    </div>
+                    
+                    <div class="row bg-success text-light pb-3 ms-auto me-auto mb-3 rounded">
+                        <h2 class="text-center mt-2">Categories</h2>
+                        <h1 class="text-center"><i class="fa-solid fa-folder-open"></i> 3</h1>
+                        <button class="btn btn-outline-light w-25 ms-auto me-auto">View</button>
+                    </div>
+
+                    <div class="row bg-warning text-light pb-3 ms-auto me-auto mb-2 rounded">
+                        <h2 class="text-center mt-2">Users</h2>
+                        <h1 class="text-center"><i class="fa-solid fa-users"></i> 3</h1>
+                        <button class="btn btn-outline-light w-25 ms-auto me-auto">View</button>
+                    </div>
+                </div>
+            </div>
+           
         </div>
+       
     </main>
     <footer>
         <!-- place footer here -->
+        <div class="footer bg-dark ">
+            <p class="text-muted text-center m-5 p-5">Copyright &copy 2017 Blogen</p>
+        </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
